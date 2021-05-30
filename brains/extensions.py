@@ -1,3 +1,4 @@
 paths = {
-    '.txt':  'text_files/'
+    #Add your paths here
+    '.txt':     'text_files/'
 }

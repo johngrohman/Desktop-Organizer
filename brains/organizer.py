@@ -5,6 +5,9 @@ from extensions import paths
 this = True
 
 def get_extension(file: str) -> str:
+    '''
+    Function that returns the extension of an inputed file
+    '''
     period_points = []
     i = 0
     for character in file:
