@@ -1,7 +1,8 @@
 import os
 import shutil
+from extensions import paths
 
-#get listing of files/directores outside of brains folder
+#get listing of files/directores outside the current directory (brains)
 directory_list = os.listdir('../')
 
 def get_extension(file: str) -> str:
@@ -13,4 +14,9 @@ def get_extension(file: str) -> str:
         i += 1
     return file[period_points[-1]: len(file)]
 
-print(directory_list)
+# Moving file to a directory
+for entry in directory_list:
+    if '.' not in entry or entry == '.git':
+        continue
+    else:
+        shutil.move('../' + entry, '../' + paths.get(get_extension(entry)), shutil.copy2)
