@@ -121,6 +121,7 @@ paths = {
         '.py':     'programming/python',
         '.sh':     'programming/shell',
         '.h':      'programming/c&c++',
+        '.cpp':    'programming/c&c++',
         # spreadsheets
         '.ods':    'text/microsoft/excel',
         '.xlr':    'text/microsoft/excel',

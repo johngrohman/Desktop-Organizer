@@ -19,10 +19,14 @@ def get_extension(file: str) -> str:
 while this == True:
     #get listing of files/directores outside the current directory (brains)
     directory_list = os.listdir('../')
+    print(directory_list)
 
     # Moving file to their respective directory
     for entry in directory_list:
-        if '.' not in entry or entry == '.git':
+        # print(entry)
+        if ('.' not in entry) or (entry[0] == '.'):
             continue
+        elif str(paths.get(get_extension(entry))) == 'None':
+            shutil.move('../' + str(entry),  '../unorganized/', shutil.copy2)
         else:
-            shutil.move('../' + entry, '../' + paths.get(get_extension(entry)), shutil.copy2)
+            shutil.move('../' + str(entry),  '../' + str(paths.get(get_extension(entry))), shutil.copy2)
