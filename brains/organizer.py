@@ -19,7 +19,8 @@ def get_extension(file: str) -> str:
 while this == True:
     #get listing of files/directores outside the current directory (brains)
     directory_list = os.listdir('../')
-    print(directory_list)
+    print('\033[H\033[J')
+    print('Running...')
 
     # Moving file to their respective directory
     for entry in directory_list:

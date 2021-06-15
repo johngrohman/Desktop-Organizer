@@ -51,6 +51,7 @@ paths = {
         '.tif':    'images',
         '.tiff':   'images',
         '.cr2':    'images',
+        '.heic':   'images',
         # internet
         '.asp':    'other/internet',
         '.aspx':   'other/internet',
