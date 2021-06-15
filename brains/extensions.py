@@ -116,13 +116,13 @@ paths = {
         '.ppt':    'text/presentations',
         '.pptx':   'text/presentations',
         # programming
-        '.c':      'programming/c&c++',
+        '.c':      'programming/candc++',
         '.class':  'programming/java',
         '.java':   'programming/java',
         '.py':     'programming/python',
         '.sh':     'programming/shell',
-        '.h':      'programming/c&c++',
-        '.cpp':    'programming/c&c++',
+        '.h':      'programming/candc++',
+        '.cpp':    'programming/candc++',
         # spreadsheets
         '.ods':    'text/microsoft/excel',
         '.xlr':    'text/microsoft/excel',
