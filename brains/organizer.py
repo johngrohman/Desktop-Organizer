@@ -30,4 +30,5 @@ while this == True:
         elif str(paths.get(get_extension(entry))) == 'None':
             shutil.move('../' + str(entry),  '../unorganized/', shutil.copy2)
         else:
-            shutil.move('../' + str(entry),  '../' + str(paths.get(get_extension(entry))), shutil.copy2)
+            shutil.move('../' + str(entry),  '../' +
+            str(paths.get(get_extension(entry))), shutil.copy2)
