@@ -5,6 +5,9 @@ Desktop-Organizer is a program that will automatically organize your desktop as 
 Setup the program by running:
 
     cd brains/
+
+Then:
+
     sh init.sh
 
 You can the run the program with:
