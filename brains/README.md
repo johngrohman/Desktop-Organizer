@@ -13,3 +13,5 @@ Then:
 You can the run the program with:
 
     python3 organizer.py
+
+Remember: The program will run outside of the brains folder
