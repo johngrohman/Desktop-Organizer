@@ -10,7 +10,7 @@ Then:
 
     sh init.sh
 
-You can the run the program with:
+You can then run the program with:
 
     python3 organizer.py
 
