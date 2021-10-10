@@ -1,12 +1,8 @@
 # Desktop-Organizer
 
-Desktop-Organizer is a program that will automatically organize your desktop as you add files to it. Files will instantaniously be filtered into their respective folders upon presentation to the directory outside of the brains directory.
+Desktop-Organizer is a program that will automatically organize your desktop as you add files to it. While the program is running, any file that you add into the directory will be sorted into other directories.
 
 Setup the program by running:
-
-    cd brains/
-
-Then:
 
     sh init.sh
 
